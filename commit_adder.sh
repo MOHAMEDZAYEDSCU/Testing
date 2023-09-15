@@ -12,10 +12,12 @@ do
     git commit -m "$i"
     git push
 
+    rm newfile_$i.txt
+
     sleep 1  
 done
 
-  touch file_$i
+  rm newfile_$i.txt
 
   git add .
   git commit -m "$i"
