@@ -1,6 +1,6 @@
 #!/bin/bash
 
 git add .
-git commit -m "Auto-commit at $(date)"
+git commit -m "new contribution"
 git push
 
